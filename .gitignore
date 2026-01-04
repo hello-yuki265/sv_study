@@ -2,7 +2,7 @@
 # modelsim work
 # ===============
 # 默认的编译库目录
-modelsim/work/
+*/modelsim/work/
 
 # 编译和仿真生成的数据库
 *.wlf
