@@ -1,0 +1,40 @@
+# ===============
+# modelsim work
+# ===============
+# 默认的编译库目录
+modelsim/work/
+
+# 编译和仿真生成的数据库
+*.wlf
+*.ucdb
+*.vstf
+*.db
+
+# 编译生成的索引和元数据
+_info
+_lock
+_vmake
+transcript
+
+# --- 仿真运行产生的临时文件 ---
+vsim.wlf
+vsim_stacktrace.vdb
+modelsim.ini
+
+# --- 调试与波形文件 ---
+*.asdb
+*.cov
+*.vcd
+*.fsdb
+
+# --- 常见的日志和报告 ---
+*.log
+*.jou
+*.rpt
+
+!*.do
+!*.tcl
+
+# 一些文件夹
+icarus/
+netlist/
